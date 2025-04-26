@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>分享一本好书：《朝花夕拾》</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <h1>分享一本好书：《朝花夕拾》</h1>
+    </header>
+    <!-- 内容 -->
+    <main>
+        <div>
+            <!-- 显示书籍封面 -->
+            <img src="book-cover.jpg" alt="《朝花夕拾》封面">
+        </div>
+        <div>
+            <h2>《朝花夕拾》</h2>
+            <p>作者：鲁迅</p>
+            <p>《朝花夕拾》原名《旧事重提》，是现代文学家鲁迅的散文集，收录鲁迅于 1926 年创作的 10 篇回忆性散文。此文集作为“回忆的记事”，多侧面地反映了作者鲁迅青少年时期的生活，形象地反映了他的性格和志趣的形成经过。</p>
+            <h3>章节列表</h3>
+            <ul id="chapter-list">
+                <li><a href="#" data-chapter="1">《狗·猫·鼠》</a></li>
+                <li><a href="#" data-chapter="2">《阿长与〈山海经〉》</a></li>
+                <li><a href="#" data-chapter="3">《二十四孝图》</a></li>
+                <li><a href="#" data-chapter="4">《五猖会》</a></li>
+                <li><a href="#" data-chapter="5">《无常》</a></li>
+                <li><a href="#" data-chapter="6">《从百草园到三味书屋》</a></li>
+                <li><a href="#" data-chapter="7">《父亲的病》</a></li>
+                <li><a href="#" data-chapter="8">《琐记》</a></li>
+                <li><a href="#" data-chapter="9">《藤野先生》</a></li>
+                <li><a href="#" data-chapter="10">《范爱农》</a></li>
+            </ul>
+            <div id="navigation" style="display: none;">
+                <button id="prev-chapter">上一章</button>
+                <button id="next-chapter">下一章</button>
+            </div>
+        </div>
+        <div id="chapter-content">
+            <p>请选择一个章节阅读。</p>
+        </div>
+    </main>
+    <!-- 页脚 -->
+    <footer>
+        <p>&copy; 2025 好书分享平台. 版权所有</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>    
